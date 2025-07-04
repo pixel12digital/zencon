@@ -1,0 +1,109 @@
+# Arquivos de configuração sensíveis
+config.php
+config-site.php
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+error_log
+access_log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários do PHP
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache e arquivos temporários
+cache/
+tmp/
+temp/
+*.cache
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de dependências (se usar composer)
+vendor/
+composer.lock
+
+# Arquivos de upload temporários
+uploads/temp/
+uploads/cache/
+
+# Arquivos de sessão PHP
+sess_*
+
+# Arquivos de configuração local
+config.local.php
+database.local.php
+
+# Arquivos de certificados SSL
+*.pem
+*.key
+*.crt
+*.csr
+
+# Arquivos de backup do banco
+*.sql
+*.dump
+
+# Arquivos de configuração do servidor
+.htaccess.local
+nginx.conf.local
+
+# Arquivos de monitoramento
+*.pid
+*.lock
+
+# Arquivos de teste
+tests/
+test_*
+*_test.php
+
+# Arquivos de documentação temporária
+docs/temp/
+*.md.bak
+
+# Arquivos de deploy
+deploy/
+build/
+dist/
+
+# Arquivos de análise de código
+phpcs.xml
+phpstan.neon
+.phpunit.result.cache
+
+# Arquivos de cobertura de testes
+coverage/
+*.cov
+
+# Arquivos de profiling
+*.prof
+*.cachegrind
+
+# Arquivos de debug
+debug.log
+xdebug.log
+
+# Arquivos de configuração de ambiente específico
+config/
+environments/ 
