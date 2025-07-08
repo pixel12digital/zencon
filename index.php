@@ -70,9 +70,9 @@ require_once 'config.php';
     <!-- FRASE DE IMPACTO -->
     <section class="frase-impacto">
         <div class="container">
-            <h1>TUDO AO SEU ALCANCE. SUA INTERNET +RÁPIDA!</h1>
-            <p>Sua Conexão 100% fibra óptica com a qualidade que você merece!</p>
-            <p>Conecte-se com a internet +rápida e estável!</p>
+            <h1>Tudo ao seu alcance.<br>Sua internet + Rápida</h1>
+            <p>Sua conexão 100% fibra óptica com a qualidade que você merece!</p>
+            <p>Conecte-se com a ZENCON internet.</p>
             <a href="https://wa.me/5511986386492?text=Olá! Tenho interesse em contratar a internet da Zencom Telecom." target="_blank" rel="noopener" class="btn btn-cta">Quero Contratar Agora</a>
         </div>
     </section>
@@ -86,6 +86,7 @@ require_once 'config.php';
                 <div class="card">
                     <h3>100MB + DEEZER <span class="money">💰</span> <span class="price">R$ 89,90/mês</span></h3>
                     <ul>
+                        <li>100MB (100 Download / 50 Upload)</li>
                         <li>✅ Internet ideal para uso diário + música sem limites</li>
                         <li>✅ Streaming de som com Deezer Premium incluso</li>
                         <li>✅ Instalação rápida e suporte dedicado</li>
@@ -94,6 +95,7 @@ require_once 'config.php';
                 <div class="card">
                     <h3>400MB + SKY+ e DEEZER <span class="money">💰</span> <span class="price">R$ 119,90/mês</span></h3>
                     <ul>
+                        <li>400MB (400 Download / 200 Upload)</li>
                         <li>✅ Internet potente + TV e música na palma da mão</li>
                         <li>✅ Acesse canais SKY+ e curta músicas com Deezer</li>
                         <li>✅ Ideal para famílias conectadas e streaming em Full HD</li>
@@ -103,7 +105,8 @@ require_once 'config.php';
                 <div class="card destaque">
                     <h3>600MB + SKY/GLOBO, DEEZER E MAX <span class="money">💰</span> <span class="price">R$ 169,90</span></h3>
                     <ul>
-                        <li>✅ <b>O combo completo para quem quer tudo!</b></li>
+                        <li>600MB (600 Download / 300 Upload)</li>
+                        <li>O combo completo para quem quer tudo!</li>
                         <li>✅ Ultra velocidade + SKY+, Globo, Max e Deezer</li>
                         <li>✅ Perfeito para streamers, gamers e grandes famílias</li>
                         <li>✅ Wi-Fi 5G turbo com cobertura poderosa</li>
@@ -118,8 +121,8 @@ require_once 'config.php';
                     <div class="card">
                         <h3>100MB <span class="money">💰</span> <span class="price">R$ 79,90/mês</span></h3>
                         <ul>
+                            <li>100MB (100 Download / 50 Upload)</li>
                             <li>✅ Instalação rápida e sem complicações</li>
-                            <li>✅ Ideal para até 4 dispositivos conectados</li>
                             <li>✅ Perfeito para redes sociais, vídeos e chamadas</li>
                             <li>✅ Wi-Fi com cobertura estável em toda a casa</li>
                         </ul>
@@ -127,7 +130,8 @@ require_once 'config.php';
                     <div class="card">
                         <h3>400MB <span class="money">💰</span> <span class="price">R$ 109,90/mês</span></h3>
                         <ul>
-                            <li>✅ <b>Velocidade para toda a família</b></li>
+                            <li>400MB (400 Download / 200 Upload)</li>
+                            <li>Velocidade para toda a família</li>
                             <li>✅ Ideal para streaming em HD e jogos online</li>
                             <li>✅ Wi-Fi 5G de alta performance incluso</li>
                             <li>✅ Conexão estável mesmo com vários usuários</li>
@@ -136,7 +140,8 @@ require_once 'config.php';
                     <div class="card destaque">
                         <h3>600MB <span class="money">💰</span> <span class="price">R$ 139,90/mês</span></h3>
                         <ul>
-                            <li>✅ <b>Desempenho máximo para quem exige mais</b></li>
+                            <li>600MB (600 Download / 300 Upload)</li>
+                            <li>Desempenho máximo para quem exige mais</li>
                             <li>✅ Perfeito para home office, gamers e streamers</li>
                             <li>✅ Ultra Wi-Fi 5G + cobertura poderosa</li>
                             <li>✅ Sem travamentos, sem limites!</li>
@@ -245,7 +250,7 @@ require_once 'config.php';
     <!-- CENTRAL DO CLIENTE -->
     <section id="central-cliente" class="central-cliente">
         <div class="container">
-            <a href="#" class="btn-cliente">Área do Cliente / 2ª via do boleto</a>
+            <a href="https://www.ispfy.com.br/app-provedor/baixar" class="btn-cliente">Área do Cliente / 2ª via do boleto</a>
         </div>
     </section>
 
