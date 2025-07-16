@@ -187,59 +187,83 @@ require_once 'config.php';
             <div class="accordion" id="appsAccordion">
                 <div class="accordion-item open">
                     <button class="accordion-header active" type="button">
-                        <span class="arrow"></span> 📺 STREAMING DE VÍDEO / TV
+                        <span class="arrow"></span> 🎥 Streaming de Vídeo e TV
                     </button>
                     <div class="accordion-body">
                         <ul>
-                            <li><b>Max (HBO Max)</b> – Séries, filmes e conteúdos da HBO, Warner e Max Originals.</li>
-                            <li><b>SKY+</b> – TV ao vivo, filmes, canais infantis, esportes e séries sob demanda.</li>
-                            <li><b>Looke</b> – Plataforma de filmes, séries e conteúdo sob demanda.</li>
-                            <li><b>Seu Sofá de Cinema</b> – Lançamentos de filmes para assistir online.</li>
-                            <li><b>Curta!On</b> – Documentários e produções culturais nacionais.</li>
-                            <li><b>HotGo</b> – Conteúdo adulto (18+) sob demanda.</li>
-                            <li><b>360 Play</b> – Vídeos on demand com séries, filmes e entretenimento.</li>
-                            <li><b>Woohoo</b> – Conteúdo jovem sobre cultura pop, esportes e games.</li>
+                            <li><b>SKY+ Light</b> – Plataforma de TV por assinatura com canais e conteúdos on-demand.</li>
+                            <li><b>SKY+ Light & Globo</b> – Combinação de conteúdos SKY+ com acesso a conteúdos Globo.</li>
+                            <li><b>Looke</b> – Serviço de streaming com filmes e séries.</li>
+                            <li><b>Disney+</b> – Filmes e séries da Disney, Pixar, Marvel, Star Wars e National Geographic.</li>
+                            <li><b>HBO Max</b> – Séries e filmes da HBO e outros estúdios.</li>
+                            <li><b>HotGo</b> – Conteúdo adulto (streaming).</li>
+                            <li><b>CurtaOn – Clube de Documentários</b> – Documentários e curtas-metragens.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-header" type="button">
-                        <span class="arrow"></span> 🎵 STREAMING DE MÚSICA
+                        <span class="arrow"></span> 🧒 Infantil e Educacional
                     </button>
                     <div class="accordion-body">
                         <ul>
-                            <li><b>Deezer</b> – Música, playlists, podcasts e rádios online.</li>
-                            <li><b>Ubook Plus</b> – Audiolivros, podcasts, e conteúdo narrado.</li>
+                            <li><b>PlayKids+</b> – Conteúdo educativo e lúdico para crianças.</li>
+                            <li><b>Kiddle Pass</b> – Acesso a conteúdos educativos infantis.</li>
+                            <li><b>ESTUDA+</b> – Plataforma de estudos e reforço escolar.</li>
+                            <li><b>Smart Content</b> – Conteúdos inteligentes e educativos.</li>
+                            <li><b>Standard III</b> – Nível avançado da plataforma educacional Standard.</li>
+                            <li><b>Plus</b> (ícone verde com hexágono) – Provável expansão do Standard III (educacional).</li>
                         </ul>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-header" type="button">
-                        <span class="arrow"></span> 📚 STREAMING DE LEITURA / EDUCAÇÃO
+                        <span class="arrow"></span> 🎧 Áudio e Leitura
                     </button>
                     <div class="accordion-body">
                         <ul>
-                            <li><b>Ubook Plus</b> – Audiolivros, eBooks e revistas digitais.</li>
-                            <li><b>Hube Revistas</b> – Acesso a centenas de revistas atualizadas.</li>
-                            <li><b>+QNutri</b> – Conteúdo de nutrição e bem-estar.</li>
-                            <li><b>Qranio</b> – Quizzes interativos e conteúdos educativos.</li>
-                            <li><b>E+ (Educa+)</b> – Videoaulas e reforço escolar.</li>
-                            <li><b>Klick</b> – Plataforma educacional interativa.</li>
-                            <li><b>PlayKids</b> – Vídeos, jogos e livros para crianças.</li>
-                            <li><b>PlayKids Stories (PKS)</b> – Histórias infantis em áudio e texto.</li>
-                            <li><b>PlayLearn (PL)</b> – Conteúdos educativos gamificados para crianças.</li>
+                            <li><b>Deezer</b> – Streaming de música.</li>
+                            <li><b>Ubook Plus</b> – Audiolivros, e-books e podcasts.</li>
+                            <li><b>Playlist</b> – Playlists personalizadas (música).</li>
+                            <li><b>Social Comics</b> – Plataforma de quadrinhos digitais.</li>
+                            <li><b>Hube Revistas</b> – Acesso a diversas revistas digitais.</li>
+                            <li><b>O Jornalista</b> – Acesso a notícias e conteúdos jornalísticos.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-header" type="button">
-                        <span class="arrow"></span> 🎮 GAMES / PERFORMANCE
+                        <span class="arrow"></span> 🎮 Jogos e Conectividade
                     </button>
                     <div class="accordion-body">
                         <ul>
-                            <li><b>NBA</b> – Jogos da NBA ao vivo, estatísticas e vídeos.</li>
-                            <li><b>NoPing</b> – Otimização de conexão para jogos online.</li>
-                            <li><b>Fit Anywhere / JFIT</b> – Treinos e vídeos fitness sob demanda.</li>
+                            <li><b>ExitLag</b> – Otimizador de conexão para jogos online.</li>
+                            <li><b>NBA League Pass</b> – Transmissão de jogos da NBA ao vivo e sob demanda.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span class="arrow"></span> 🧘 Saúde, Bem-estar e Organização
+                    </button>
+                    <div class="accordion-body">
+                        <ul>
+                            <li><b>Queima Diária</b> – Programas de treino físico e bem-estar.</li>
+                            <li><b>Zen</b> – Meditação, relaxamento e mindfulness.</li>
+                            <li><b>Fluid</b> – Ferramenta de organização pessoal e foco (presumido).</li>
+                            <li><b>Pediatria em Foco</b> – Conteúdos voltados à saúde infantil.</li>
+                            <li><b>Nutri</b> – Conteúdos sobre nutrição.</li>
+                            <li><b>Docway</b> – Plataforma de telemedicina.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span class="arrow"></span> 🌐 Outros/Multiplataformas
+                    </button>
+                    <div class="accordion-body">
+                        <ul>
+                            <li><b>HUB</b> – Plataforma digital de conteúdos diversos.</li>
                         </ul>
                     </div>
                 </div>
@@ -255,7 +279,7 @@ require_once 'config.php';
     </section>
 
     <!-- NOVA SEÇÃO: APP E CONTATO -->
-    <section class="app-contato-section">
+    <section id="contato" class="app-contato-section">
         <div class="container app-contato-box">
             <h2 class="app-contato-title">Baixe o App e Fale com a Zencom</h2>
             <p class="app-contato-subtitle">Com nosso app, você acessa sua conta, tira dúvidas e fala direto com nosso time pelo WhatsApp!</p>

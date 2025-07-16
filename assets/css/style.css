@@ -52,7 +52,7 @@ body {
     right: 0;
     background: rgba(30, 58, 138, 0.95);
     backdrop-filter: blur(10px);
-    z-index: 1000;
+    z-index: 3000;
     transition: var(--transition);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1420,4 +1420,36 @@ body {
         font-size: 0.98rem;
         margin-top: 0.5rem;
     }
+} 
+
+@media (min-width: 769px) {
+  .nav-mobile,
+  .mobile-menu-toggle {
+    display: none !important;
+  }
+  .nav-desktop {
+    display: flex !important;
+    z-index: 2000;
+    position: relative;
+  }
+  .nav-desktop .nav-link {
+    position: relative;
+    z-index: 1;
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .nav-desktop .nav-link:hover,
+  .nav-desktop .nav-link:focus {
+    background: rgba(255,255,255,0.12) !important;
+    color: #fff !important;
+    box-shadow: none !important;
+  }
+  .nav-desktop li::before,
+  .nav-desktop li::after,
+  .nav-desktop .nav-link::before,
+  .nav-desktop .nav-link::after {
+    display: none !important;
+    content: none !important;
+    pointer-events: none !important;
+  }
 } 

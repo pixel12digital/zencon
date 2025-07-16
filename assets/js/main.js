@@ -503,14 +503,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Scroll suave
+    // Scroll suave com offset do header fixo
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
+            const href = this.getAttribute('href');
+            if (href === '#home') {
+                window.location.reload();
+                return;
+            }
+            const target = document.querySelector(href);
             if (target) {
-                target.scrollIntoView({ behavior: 'smooth' });
+                e.preventDefault();
+                const header = document.querySelector('.header');
+                const headerHeight = header ? header.offsetHeight : 0;
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 10;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
             }
         });
     });
