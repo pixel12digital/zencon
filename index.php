@@ -71,7 +71,6 @@ require_once 'config.php';
     <section class="frase-impacto">
         <div class="container">
             <h1>Tudo ao seu alcance.<br>Sua internet + Rápida</h1>
-            <p>Sua conexão 100% fibra óptica com a qualidade que você merece!</p>
             <p>Conecte-se com a ZENCON internet.</p>
             <a href="https://wa.me/5511986386492?text=Olá! Tenho interesse em contratar a internet da Zencom Telecom." target="_blank" rel="noopener" class="btn btn-cta">Quero Contratar Agora</a>
         </div>
@@ -93,7 +92,7 @@ require_once 'config.php';
                     </ul>
                 </div>
                 <div class="card">
-                    <h3>400MB + SKY+ e DEEZER <span class="money">💰</span> <span class="price">R$ 119,90/mês</span></h3>
+                    <h3>400MB + SKY+ e DEEZER <span class="money">💰</span> <span class="price">R$ 129,90/mês</span></h3>
                     <ul>
                         <li>400MB (400 Download / 200 Upload)</li>
                         <li>✅ Internet potente + TV e música na palma da mão</li>
@@ -103,7 +102,7 @@ require_once 'config.php';
                     </ul>
                 </div>
                 <div class="card destaque">
-                    <h3>600MB + SKY/GLOBO, DEEZER E MAX <span class="money">💰</span> <span class="price">R$ 169,90</span></h3>
+                    <h3>600MB + SKY/GLOBO, DEEZER E MAX <span class="money">💰</span> <span class="price">R$ 184,90/mês</span></h3>
                     <ul>
                         <li>600MB (600 Download / 300 Upload)</li>
                         <li>O combo completo para quem quer tudo!</li>
