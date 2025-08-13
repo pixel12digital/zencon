@@ -285,7 +285,7 @@ require_once 'config.php';
             <div class="app-contato-grid">
                 <div class="app-contato-img-col">
                     <img src="assets/images/app.jpg" alt="App Zencom" class="app-contato-img" />
-                    <a href="https://play.google.com/store/apps/details?id=seu.app.id" target="_blank" class="btn btn-app-download">Baixar App</a>
+                    <a href="https://www.provedor.app/baixar" target="_blank" class="btn btn-app-download">Baixar App</a>
                 </div>
                 <div class="app-contato-form-col">
                     <h3>Fale com a Zencom</h3>
